@@ -1,10 +1,10 @@
 import React from 'react';
-import { DatePicker } from 'antd';
 
 const App = React.createClass({
   render() {
     return (
-      <DatePicker />
+      <div style={{height:'100px',width:'100px',backgroundColor:'red'}}>
+      </div>
     );
   },
 });

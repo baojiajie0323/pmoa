@@ -1,11 +1,10 @@
 {
-  "name": "antd-demo",
+  "name": "pmoa",
   "version": "1.0.0",
   "entry": {
     "index": "./src/entry/index.jsx"
   },
   "dependencies": {
-    "antd": "~0.12.0",
     "atool-build": "0.5.x",
     "babel-plugin-antd": "^0.2.0",
     "es3ify-loader": "^0.1.0",
@@ -28,6 +27,6 @@
   "scripts": {
     "dev": "dora -p 8001 --plugins atool-build,proxy,hmr",
     "lint": "eslint --ext .js,.jsx src",
-    "build": "atool-build -o ./dist/${npm_package_family}/${npm_package_name}/${npm_package_version}"
+    "build": "atool-build -o ./dist/"
   }
 }
